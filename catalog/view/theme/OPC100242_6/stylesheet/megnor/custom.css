@@ -63,21 +63,21 @@ span.customSelect.changed {
 .treeview-list li.active ul li a	{ font-weight:normal; color:#5E5E5E;}
 .treeview-list li ul li { background:none; border-bottom:none; }
 .treeview-list .collapsable .expandable-hitarea { 
-    height: 25px;
-    width: 30px;  
+    height: 47px;
+    width: 47px;
 } 
 .treeview-list .expandable .collapsable-hitarea{ 
-    height: 25px;
-    width: 30px;
+    height: 47px;
+    width: 47px;
 } 
 .treeview-list .expandable-hitarea { 
-    height: 25px;
-    width: 30px;  
+    height: 47px;
+    width: 47px;
 	text-align:center;
 } 
 .treeview-list .collapsable-hitarea { 
-    height: 25px;
-    width: 30px;
+    height: 47px;
+    width: 47px;
 	text-align:center;
 }
 .treeview-list .expandable .collapsable-hitarea::before, .treeview-list .expandable-hitarea::before {

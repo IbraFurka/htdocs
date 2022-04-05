@@ -541,14 +541,14 @@ $(window).resize(function () {
 
 /*For Back to Top button*/
 $(document).ready(function () {
-    $("body").append("<a class='top_button' title='Back To Top' href=''>TOP</a>");
+    $("body").append("<a class='top_button' title='Back To Top' href=''><i class='icon icon-scroll-to-up-arrow-iconset'></i><span id='upFont'>Yukarı Çık</span></a>");
 
     $(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 70) {
-                $('.top_button').fadeIn();
+                $('.top_button').fadeIn(500);
             } else {
-                $('.top_button').fadeOut();
+                $('.top_button').fadeOut(500);
             }
         });
         // scroll body to 0px on click
