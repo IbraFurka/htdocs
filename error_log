@@ -1,0 +1,198 @@
+[29-Mar-2022 12:13:29 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:31 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:32 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:34 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:37 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:38 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:38 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:39 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:41 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:47 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:55 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:56 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:57 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:13:59 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:14:36 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:14:40 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:14:40 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:14:46 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:14:54 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:14:56 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:14:56 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
+[29-Mar-2022 12:15:20 Europe/Istanbul] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: A hash key must be a quoted string, a number, a name, or an expression enclosed in parentheses (unexpected token "punctuation" of value "{" in "OPC100242_6/template/common/header.twig" at line 150. in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php:376
+Stack trace:
+#0 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#1 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#2 /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#3 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(142): Twig\ExpressionParser->parseExpression()
+#4 /home/cucucomtr/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#5 /home/cucucomtr/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#6 /home/cucucomtr/storage/vendor/ in /home/cucucomtr/storage/vendor/twig/twig/src/ExpressionParser.php on line 376
