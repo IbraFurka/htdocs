@@ -6,32 +6,34 @@
 <html dir="{{ direction }}" lang="{{ lang }}">
 <!--<![endif]-->
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ title }}</title>
-    <base href="{{ base }}" />
+    <base href="{{ base }}"/>
     {% if description %}
-        <meta name="description" content="{{ description }}" />
+        <meta name="description" content="{{ description }}"/>
     {% endif %}
     {% if keywords %}
-        <meta name="keywords" content="{{ keywords }}" />
+        <meta name="keywords" content="{{ keywords }}"/>
     {% endif %}
     <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
     <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
     <script src="catalog/view/javascript/jquery.countdown.min.js"></script>
     <script src="catalog/view/javascript/jquery.countdown.js"></script>
-    <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="catalog/view/theme/{{ mytemplate }}/stylesheet/stylesheet.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/magnific/magnific-popup.css" />
-    <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{ mytemplate }}/stylesheet/megnor/lightbox.css" />
-    <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{ mytemplate }}/stylesheet/megnor/carousel.css" />
-    <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{  mytemplate }}/stylesheet/megnor/custom.css" />
-    <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{  mytemplate }}/stylesheet/megnor/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{  mytemplate }}/stylesheet/megnor/animate.css" />
-    <link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/owl-carousel/owl.carousel.css" />
-    <link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/owl-carousel/owl.transitions.css" />
+    <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="catalog/view/theme/{{ mytemplate }}/stylesheet/stylesheet.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/magnific/magnific-popup.css"/>
+    <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{ mytemplate }}/stylesheet/megnor/lightbox.css"/>
+    <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{ mytemplate }}/stylesheet/megnor/carousel.css"/>
+    <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{ mytemplate }}/stylesheet/megnor/custom.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="catalog/view/theme/{{ mytemplate }}/stylesheet/megnor/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{ mytemplate }}/stylesheet/megnor/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/owl-carousel/owl.carousel.css"/>
+    <link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/owl-carousel/owl.transitions.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
@@ -40,13 +42,13 @@
     {% endif %}
 
     {% for style in styles %}
-        <link href="{{ style.href }}" type="text/css" rel="{{ style.rel }}" media="{{ style.media }}" />
+        <link href="{{ style.href }}" type="text/css" rel="{{ style.rel }}" media="{{ style.media }}"/>
     {% endfor %}
     {% for script in scripts %}
         <script src="{{ script }}"></script>
     {% endfor %}
     {% for link in links %}
-        <link href="{{ link.href }}" rel="{{ link.rel }}" />
+        <link href="{{ link.href }}" rel="{{ link.rel }}"/>
     {% endfor %}
     {% for analytic in analytics %}
         {{ analytic }}
@@ -71,18 +73,23 @@
     <!-- ======= Quick view JS ========= -->
     <script>
 
-        function quickbox(){
+        function quickbox() {
             if ($(window).width() > 767) {
                 $('.quickview-button').magnificPopup({
-                    type:'iframe',
+                    type: 'iframe',
                     delegate: 'a',
                     preloader: true,
                     tLoading: 'Loading image #%curr%...',
                 });
             }
         }
-        jQuery(document).ready(function() {quickbox();});
-        jQuery(window).resize(function() {quickbox();});
+
+        jQuery(document).ready(function () {
+            quickbox();
+        });
+        jQuery(window).resize(function () {
+            quickbox();
+        });
 
     </script>
 
@@ -110,7 +117,9 @@
         <div class="row" id="navUp">
 
             <div class="col-sm-4 col-xs-12 header-logo">
-                <div id="logo">{% if logo %}<a href="{{ home }}"><img src="{{ logo }}" title="{{ name }}" alt="{{ name }}" width="150" class="img-responsive" /></a>{% else %}
+                <div id="logo">{% if logo %}<a href="{{ home }}"><img src="{{ logo }}" title="{{ name }}"
+                                                                      alt="{{ name }}" width="150"
+                                                                      class="img-responsive"/></a>{% else %}
                         <h1><a href="{{ home }}">{{ name }}</a></h1>
                     {% endif %}</div>
             </div>
@@ -120,8 +129,12 @@
                 {{ language }}
                 <div id="top-links" class="nav pull-right">
                     <ul class="list-inline">
-                        {#<li><a href="{{ contact }}"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">{{ telephone }}</span></li>#}
-                        <li class="dropdown myaccount"><a href="{{ account }}" title="{{ text_account }}" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_account }}</span> <span class="caret"></span></a>
+                        {# <li><a href="{{ contact }}"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">{{ telephone }}</span></li> #}
+                        <li class="dropdown myaccount"><a href="{{ account }}" title="{{ text_account }}"
+                                                          class="dropdown-toggle" data-toggle="dropdown"><i
+                                        class="fa fa-user"></i> <span
+                                        class="hidden-xs hidden-sm hidden-md">{{ text_account }}</span> <span
+                                        class="caret"></span></a>
                             <ul class="dropdown-menu dropdown-menu-right myaccount-menu">
                                 {% if logged %}
                                     <li><a href="{{ account }}">{{ text_account }}</a></li>
@@ -135,7 +148,9 @@
                                 {% endif %}
                             </ul>
                         </li>
-                        <li><a href="{{ wishlist }}" id="wishlist-total" title="{{ text_wishlist }}"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_wishlist }}</span></a></li>
+                        <li><a href="{{ wishlist }}" id="wishlist-total" title="{{ text_wishlist }}"><i
+                                        class="fa fa-heart"></i> <span
+                                        class="hidden-xs hidden-sm hidden-md">{{ text_wishlist }}</span></a></li>
                     </ul>
 
                 </div>
@@ -155,8 +170,6 @@
                 </div>
 
 
-
-
             </div>
         </div>
     </div>
@@ -169,7 +182,8 @@
                         {{ headerleft }}
                     </div>
 
-                    <div class="col-md-5 col-sm-5 col-xs-5 header_search"><div class="header-toggle"></div>{{ search }}</div>
+                    <div class="col-md-5 col-sm-5 col-xs-5 header_search">
+                        <div class="header-toggle"></div>{{ search }}</div>
                     <div class="col-md-3 col-sm-3 col-xs-3 header_cart">{{ cart }}</div>
 
                 </div>
